@@ -13,7 +13,7 @@
 - **Skill Development**: Offer resources and tutorials for skill development.
 - **Event Planning**: Organize workshops, webinars, or meetups for skill exchange and learning.
 - **Skill Badges**: Award badges to users for completing skill development tasks or participating in skill exchange training.
-- **Admin Panel**: A dashboard for administrators to manage users, skills, and content.
+- **Admin Panel**:- A dashboard for administrators to manage users, skills, and content.
 
 
 <!-- Skill Matching: Match users based on their offered skills and desired skills.
