@@ -51,8 +51,7 @@ Multi-Language Support: Interface available in multiple languages for broader ac
 1. Fork the repository and clone it locally.
 2. Create a new branch for your feature or bug fix.
 3. Commit your changes with clear and concise descriptions.
-4. Push to your branch and submit a pull request.
-
+4. Push to your branch and submit a pull requests.
 ## Future Enhancements
 - Implement AI-powered skill matching for better recommendations.
 - Introduce a virtual workshop feature for group learning sessions.
