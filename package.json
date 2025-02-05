@@ -4,7 +4,8 @@
   "description": "*Skill Swap* is a platform designed to connect individuals looking to exchange skills and knowledge. The idea is to create a community where people can learn from each other by offering their expertise in one area in exchange for learning another skill. This project promotes collaboration, growth, and accessibility to education without financial barriers.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,6 @@
     "express": "^4.21.2",
     "mongoose": "^8.9.5",
     "nodemon": "^3.1.9"
-  }
+  },
+  "devDependencies": {}
 }
