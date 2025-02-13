@@ -62,3 +62,62 @@ Multi-Language Support: Interface available in multiple languages for broader ac
 ## Render Deployed link
 
 **https://s63-skillswap.onrender.com**
+
+# SkillSwap Frontend
+
+## 📌 Project Overview
+- SkillSwap is a platform for skill exchange, professional networking, and growth.
+- This frontend is designed with a **clean, professional, and minimalist UI**.
+- Uses **white smoke (#F5F5F5) and Aegean (#0E4D64)** as primary colors.
+
+## 🏗 Folder Structure
+```
+/skill-swap-frontend
+│── /public
+│   ├── index.html                # Main HTML file
+│── /src
+│   │── /assets                   # Images, icons, etc.
+│   │── /components               # Reusable UI components (Navbar, Footer, etc.)
+│   │── /pages                    # Main pages (Home, Profile, Skills)
+│   │── /styles                   # CSS stylesheets
+│   │── App.js                    # Main application file
+│   │── index.js                  # Entry point for React
+│── package.json                   # Project dependencies
+│── README.md                      # Project documentation
+```
+
+## 🎨 Design and Theme
+- **Primary Colors:** White Smoke (#F5F5F5) and Aegean (#0E4D64)
+- **Typography:** Simple and readable fonts for clarity
+- **UI Style:** Professional, clean, and user-friendly
+
+## 🚀 Features
+- **Landing Page:** Introduces SkillSwap and its purpose
+- **Navigation:** Navbar for seamless user experience
+- **Skill Listings:** Find and offer skills
+- **User Profile:** Manage skills and connections
+- **Responsive Design:** Works on all devices
+
+## 📦 Installation
+1. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Start the Development Server:**
+   ```sh
+   npm start
+   ```
+3. **Open in Browser:** Visit `http://localhost:3000`
+
+## 💡 Contributing
+- Fork the repository
+- Make your changes
+- Submit a pull request
+- Help improve SkillSwap!
+
+## 📜 License
+- This project is licensed under the **MIT License**.
+
+---
+🔹 **SkillSwap - Connect, Learn, and Grow!** 🚀
+
