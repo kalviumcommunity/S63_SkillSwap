@@ -59,7 +59,7 @@ Multi-Language Support: Interface available in multiple languages for broader ac
 - Add multilingual support to cater to a global audience.
 - Develop a mobile app for ease of access.
 
-## Render Deployed link
+## Render Deployed link {Backend}
 
 **https://s63-skillswap.onrender.com**
 
@@ -121,3 +121,6 @@ Multi-Language Support: Interface available in multiple languages for broader ac
 ---
 🔹 **SkillSwap - Connect, Learn, and Grow!** 🚀
 
+### Netlify Deployment Link {Frontend}
+
+https://lambent-panda-a4dbe5.netlify.app/
