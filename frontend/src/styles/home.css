@@ -1,21 +1,110 @@
-.home-container {
-    text-align: center;
-    padding: 50px;
-    background-color: whitesmoke;
-  }
-  .hero-section {
-    background: linear-gradient(135deg, #0E4D64, #1976A5);
-    color: white;
-    padding: 50px 20px; 
-    border-radius: 10px;
-  }
-  .cta-button {
-    background-color: white;
-    color: #0E4D64;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
+/* styles/home.css */
+body {
+  margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    background-color: #002b36;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #012a32;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: #89e9ff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffea00;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+}
+
+.navLink:hover {
+  color: #ffea00;
+}
+
+/* Profile Section */
+.profileSection {
+  margin: 40px 0;
+}
+
+.profileTitle {
+  font-size: 2rem;
+  color: #ffea00;
+}
+
+.profileCard {
+  background: #fff58a;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+/* Courses Section */
+.coursesSection {
+  margin-top: 40px;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #ffea00;
+  margin-bottom: 20px;
+}
+
+.coursesGrid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.courseCard {
+  background: #014f5f;
+  padding: 15px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.courseCard iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
+
+.courseCard p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #ffea00;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background: #013440;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
