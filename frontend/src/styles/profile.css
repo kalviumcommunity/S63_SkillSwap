@@ -1,0 +1,74 @@
+/* styles/profile.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #002b36;
+    color: white;
+  }
+  
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #035769;
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    background: #013440;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffea00;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+  }
+  
+  .navLink.active {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  /* Profile Section */
+  .profileSection {
+    margin: 40px 0;
+  }
+  
+  .profileTitle {
+    font-size: 2rem;
+    color: #000000;
+  }
+  
+  .profileCard {
+    background: #ffea00;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 320px;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 40px;
+    background: #013440;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
