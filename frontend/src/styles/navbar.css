@@ -1,12 +1,113 @@
+/* styles/navbar.css */
+
 .navbar {
-    background-color: #0E4D64;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .nav-links a {
-    color: white;
-    margin-right: 15px;
-    text-decoration: none;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(165, 163, 163, 0.2);
+  
+  backdrop-filter: blur(100px);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 420px;
+  height: 40px;
+  outline: none;
+  background-color: #f8f8f8;
+  padding-left: 40px;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  left: 15px;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.authButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.signUpBtn, .signInBtn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signUpBtn {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: white solid 2px;
+  border-radius: 25px;
+}
+
+.signInBtn {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.navbar-right{
+  margin-right: 80px;
+}
+
+.search-icon{
+  margin-left: 395px;
+}

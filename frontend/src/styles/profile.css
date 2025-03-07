@@ -17,15 +17,15 @@ body {
   
   
   /* Navbar */
-  .navbar {
+  /* .navbar {
     width: 100%;
-    background: #013440;
+    background: #101111;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
+  } */
+/*   
   .logo {
     font-size: 1.8rem;
     font-weight: bold;
@@ -42,7 +42,7 @@ body {
   .navLink.active {
     text-decoration: underline;
     font-weight: bold;
-  }
+  } */
   
   /* Profile Section */
   .profileSection {
