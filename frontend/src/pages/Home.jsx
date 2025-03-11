@@ -9,6 +9,8 @@ export default function Home() {
         <nav>
           <Link to="/" className="navLink">Home</Link>
           <Link to="/profile" className="navLink">Profile</Link>
+          <Link to="/skillswap" className="navLink active">Form</Link>
+
         </nav>
       </header>
 
@@ -30,9 +32,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="footer">
-        <p>&copy; 2025 SkillSwap | Learn & Grow Together</p>
-      </footer>
+      
     </div>
   );
 }
