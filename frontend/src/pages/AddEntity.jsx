@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import EntityList from "../components/EntityList";
 
 const AddEntity = () => {
     const [entities, setEntities] = useState([]);
@@ -12,7 +13,7 @@ const AddEntity = () => {
             try {
                 const response = await fetch("http://localhost:5000/api/entities");
                 if (!response.ok) throw new Error("Failed to fetch entities");
-                
+
                 const data = await response.json();
                 setEntities(data);
             } catch (err) {
@@ -55,12 +56,12 @@ const AddEntity = () => {
     };
 
     return (
-        <div style={{ maxWidth: "500px", margin: "20px auto", textAlign: "center" }}>
-            <h2>Add a New Entity</h2>
+        <div className="container">
+            <h2 className="title">Add a New Entity</h2>
 
-            {error && <p style={{ color: "red" }}>{error}</p>}
+            {error && <p className="error">{error}</p>}
 
-            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <form onSubmit={handleSubmit} className="form">
                 <input
                     type="text"
                     name="name"
@@ -77,24 +78,12 @@ const AddEntity = () => {
                     onChange={handleChange}
                     required
                 />
-                <button type="submit">Add Entity</button>
+                <button type="submit" className="add-btn">Add Entity</button>
             </form>
 
-            <h3>Entities List</h3>
+            <h3 className="list-title">Entities List</h3>
 
-            {loading ? <p>Loading entities...</p> : (
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                    {entities.length > 0 ? (
-                        entities.map((entity) => (
-                            <li key={entity._id} style={{ margin: "5px 0", padding: "10px", border: "1px solid #ccc" }}>
-                                {entity.name} - {entity.skill}
-                            </li>
-                        ))
-                    ) : (
-                        <p>No entities found.</p>
-                    )}
-                </ul>
-            )}
+            <EntityList entities={entities} setEntities={setEntities} />
         </div>
     );
 };
