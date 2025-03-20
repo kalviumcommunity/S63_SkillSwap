@@ -26,4 +26,25 @@ router.post("/", async (req, res) => {
     }
 });
 
+// 🔄 Update an entity
+router.put("/:id", async (req, res) => {
+    try {
+      const updatedEntity = await Entity.findByIdAndUpdate(req.params.id, req.body, { new: true });
+      res.json(updatedEntity);
+    } catch (err) {
+      res.status(500).json({ message: "Update failed: " + err.message });
+    }
+  });
+  
+  // 🗑️ Delete an entity
+  router.delete("/:id", async (req, res) => {
+    try {
+      await Entity.findByIdAndDelete(req.params.id);
+      res.json({ message: "Entity deleted successfully" });
+    } catch (err) {
+      res.status(500).json({ message: "Delete failed: " + err.message });
+    }
+  });
+  
+
 module.exports = router;
